@@ -1,0 +1,36 @@
+.menurestaurant{
+    position: relative;
+    margin-top: -3rem;
+    border-radius: 2rem 2rem 0 0;
+    padding: 1rem 1rem 3rem 1rem;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+
+    &__nom{
+        font-family: Shrikhand;
+        font-size: 2.5rem;
+        position: relative;
+        margin: 1rem 0 2rem 0;
+        color: black;
+
+        &__btnlike{
+            top:0;
+            right: 3rem;
+            color: white;
+        }
+    }
+            &__entree{
+                text-transform: uppercase;
+                margin: 1rem 0;
+                position: relative;
+                animation: 1.8s entree  ease-in-out forwards;
+            }
+
+                &__type{
+                    display: flex;
+                    box-shadow: 0 4px 20px rgba(0,0,0, 0.2);
+                    overflow: hidden;
+                    border-radius: 0px 12px 12px 0px;
+                }
+            }

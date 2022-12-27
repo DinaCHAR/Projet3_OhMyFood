@@ -1,0 +1,75 @@
+.menurestaurant__type:hover{
+    .menuListe{
+        width: calc(85% - 49px);
+        transition: width .6s ease-in-out;
+    }
+    i{
+        transform: rotate(1turn);
+        transition: transform .6s ease-in-out;
+    }
+} 
+
+.menuListe{
+    cursor: pointer;
+    color: black;
+    border-radius: 1rem;
+    padding-left: 8px;
+    width: 85%;
+    flex: none;
+    padding: 10px;
+    white-space: nowrap;
+    animation: .6s agrandir ease-in-out forwards;
+
+    &:nth-child(1){
+        animation: .8s cartes .4s ease-in-out forwards;
+    }
+
+    
+
+    &__titre{
+        margin: 0px;
+        font-size: 16px; 
+        text-overflow: ellipsis;
+        overflow:hidden;
+    }
+
+        &__plat{
+            animation: .6s agrandir ease-in-out forwards;
+            font-size: 13px;
+            margin: 0;
+            text-overflow: ellipsis;
+            overflow:hidden;
+            
+        }
+            &__prix{
+                font-weight: bold;
+                color: black;
+                width: 15%;
+                flex: none;
+                padding: 10px;
+                align-self: flex-end;
+            }
+                //POUR DEPLACER LE PRIX
+                /*&:hover &__prix{
+                    animation: .6s deplacer ease-in-out forwards;
+                }*/
+
+                &__check{
+                    background-color: #99E2D0;
+                    cursor: pointer;
+                    width: 49px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 0px 12px 12px 0px;
+                    
+                }
+
+                
+
+                    &__iconeVld i{
+                        /* Rond blanc*/
+                    }
+
+                   
+}

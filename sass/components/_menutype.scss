@@ -24,8 +24,6 @@
         animation: .8s cartes .4s ease-in-out forwards;
     }
 
-    
-
     &__titre{
         margin: 0px;
         font-size: 16px; 
@@ -49,11 +47,7 @@
                 padding: 10px;
                 align-self: flex-end;
             }
-                //POUR DEPLACER LE PRIX
-                /*&:hover &__prix{
-                    animation: .6s deplacer ease-in-out forwards;
-                }*/
-
+                
                 &__check{
                     background-color: #99E2D0;
                     cursor: pointer;
@@ -65,11 +59,17 @@
                     
                 }
 
+                &__iconeVld i{
+                    /* Rond blanc*/
+                    width: 21px;
+                    height: 21px; 
+                    background-color: white;
+                    border-radius: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
                 
-
-                    &__iconeVld i{
-                        /* Rond blanc*/
-                    }
 
                    
 }

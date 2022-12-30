@@ -1,22 +1,50 @@
 
     @media (min-width: $tablet) and (max-width: $desktop - 1) {
-        .menurestaurant {
-        display: flex;
-        }
-            .fonctionnement__list{
-                display: flex;
+        /*.menurestaurant {
+            
+        }*/
+            .menucarte{
+                width: 40%;
+                flex-direction: row;
+                flex-wrap: wrap;
                 justify-content: space-between;
-                padding: 0px;
             }
-
-                .fonctionnement li{
-                    padding-right: 8px;
+                .fonctionnement__list{
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 0px;
                 }
 
-                .btnExplorer{
-                    width: 26%;
-                }
-            }
+                    .fonctionnement li{
+                        padding-right: 8px;
+                    }
+
+                        .btnExplorer{
+                            width: 26%;
+                        }
+
+                            .restaurants{
+                                display: flex;
+                                flex-wrap: wrap;
+                                justify-content: space-around;
+                            
+                                    & h2{
+                                        width: 100%;
+                                    }
+                                }
+
+                                .footer__titre{
+                                    display: flex;
+                                    justify-content: center; 
+                                }
+
+                                .footer__liens{
+                                    display: flex;
+                                    flex-wrap: wrap;
+                                    justify-content: space-around;
+                                }
+                               
+                            }
         
 
 

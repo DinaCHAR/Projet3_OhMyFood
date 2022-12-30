@@ -1,7 +1,7 @@
 .menurestaurant{
     position: relative;
     margin-top: -3rem;
-    border-radius: 2rem 2rem 0 0;
+    border-radius: 3rem 3rem 0 0;
     padding: 1rem 1rem 3rem 1rem;
     display: flex;
     flex-direction: column;
@@ -22,7 +22,6 @@
     }
             &__entree{
                 text-transform: uppercase;
-                margin: 1rem 0;
                 position: relative;
                 animation: 1.8s entree  ease-in-out forwards;
             }
@@ -34,4 +33,6 @@
                     border-radius: 12px;
                     margin-bottom: 20px;
                 }
+
+                
             }

@@ -10,42 +10,6 @@
     }
 }
 
-//Premier coeur blanc
-/*
-.coeur{
-    font-size: 18px;
-    background: white;
-    width: fit-content;
-    -webkit-background-clip:text;
-    color:transparent;
-    cursor: pointer;
-    position: absolute;
-}
-//Deuxime coeur noir derrière le blanc
-.coeur::after{
-    content:"\f004";
-    position: absolute;
-    color: black;
-    left: -2px;
-    top:-2px;
-    font-size: 21px;
-    z-index: -1; //La propriété z-index définit le « z-order » d'un élément positionné et de ses éléments enfants ou de ses éléments flexibles
-    transition: color .3s ease-in-out;
-}
-.coeur:hover{
-    background: linear-gradient(to bottom left, #9356dc, #ff79da);
-    -webkit-background-clip:text;
-    font-size: 2rem;
-    left: -4px;
-    top: -4px;
-}
-.coeur:hover::after{
-    z-index: 1000;
-    color: transparent;
-    left: 0;
-    top:0;
-}
-*/
 // Début Page d'accueil
 .menucarte{
     cursor: pointer;
@@ -53,6 +17,20 @@
     border-radius: 1rem;
     box-shadow: 2px 2px 10px rgba(0,0,0,.4);
     line-height: 0;
+
+    //Les faires appraître un par un 
+    &:nth-child(1){
+        animation: .8s cartes .4s ease-in-out forwards;
+    }
+    &:nth-child(2){
+        animation: .8s cartes .7s ease-in-out forwards;
+    }
+    &:nth-child(3){
+        animation: .8s cartes 1s ease-in-out forwards;
+    }
+    &:nth-child(4){
+        animation: .8s cartes 1.3s ease-in-out forwards;
+    }
 
         &__img{
             width: 100%;
@@ -100,6 +78,7 @@
                                         color:rgb(5,138,105);
                                         background-color: rgb(153,226,208);
                                     }
+
                         }
                         //Fin de la page d'accueil
     

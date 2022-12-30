@@ -1,0 +1,41 @@
+
+ 
+@media (min-width: $desktop){
+    .menurestaurant {
+        display: flex;
+        align-items: center;
+
+        }
+
+        
+            .fonctionnement__list{
+                display: flex;
+                justify-content: center;
+                justify-content: space-between;
+                margin-left: 133px;
+                margin-right: 155px;
+            }
+
+                .fonctionnement li{
+                    padding-right: 8px;
+                }
+
+                    .btnExplorer{
+                        width: 22%;
+                    }
+                       
+}
+
+.restaurants{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+        & h2{
+            width: 100%;
+        }
+}
+
+.menucarte{
+    width: 40%;
+}

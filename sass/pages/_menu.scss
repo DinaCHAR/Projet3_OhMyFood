@@ -29,8 +29,9 @@
 
                 &__type{
                     display: flex;
-                    box-shadow: 0 4px 20px rgba(0,0,0, 0.2);
+                    box-shadow: 0 4px 12px rgba(0,0,0, 0.2);
                     overflow: hidden;
-                    border-radius: 0px 12px 12px 0px;
+                    border-radius: 12px;
+                    margin-bottom: 20px;
                 }
             }

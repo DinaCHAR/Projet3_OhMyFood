@@ -26,6 +26,13 @@
                 animation: 1.8s entree  ease-in-out forwards;
             }
 
+                &__entree:hover/*permet de spécifier l'apparence d'un élément au moment où l'utilisateur le survole avec le pointeur, sans nécessairement l'activer.*/
+                    {
+                        border-bottom: 2px solid #0065FC;
+                        color: #0065FC;
+                    }
+                
+
                 &__type{
                     display: flex;
                     box-shadow: 0 4px 12px rgba(0,0,0, 0.2);

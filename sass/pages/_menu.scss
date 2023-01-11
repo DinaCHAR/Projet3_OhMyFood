@@ -13,6 +13,8 @@
         position: relative;
         margin: 1rem 0 2rem 0;
         color: black;
+        display: flex;
+        justify-content: space-between;
 
         &__btnlike{
             top:0;

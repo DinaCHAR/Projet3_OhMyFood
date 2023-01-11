@@ -26,10 +26,11 @@
                 animation: 1.8s entree  ease-in-out forwards;
             }
 
-                &__entree:hover/*permet de spécifier l'apparence d'un élément au moment où l'utilisateur le survole avec le pointeur, sans nécessairement l'activer.*/
+                & h2/*permet de spécifier l'apparence d'un élément au moment où l'utilisateur le survole avec le pointeur, sans nécessairement l'activer.*/
                     {
-                        border-bottom: 2px solid #0065FC;
-                        color: #0065FC;
+                        border-bottom: 2px solid #99E2D0;
+                        width: 51px;
+                        font-size: 17px;
                     }
                 
 

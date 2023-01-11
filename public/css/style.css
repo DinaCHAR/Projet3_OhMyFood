@@ -477,9 +477,6 @@ aside {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    /*& .versiondesktop{
-        margin-top: -91px;
-    }*/
   }
   .menurestaurant h1 {
     width: 100%;

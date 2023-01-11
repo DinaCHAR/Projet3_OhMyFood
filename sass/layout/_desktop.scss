@@ -17,6 +17,9 @@
                     margin-left: 17px;
                 }
 
+                & .versiondesktop{
+                    margin-top: -91px;
+                }
                     
         }
 
@@ -48,23 +51,19 @@
         }
 }
 
-.menucarte{
-    width: 40%;
-}
+    .menucarte{
+        width: 40%;
+    }
 
-.footer__titre{
-    display: flex;
-    justify-content: center;
-}
-.footer__liens{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
+        .footer__titre{
+            display: flex;
+            justify-content: center;
+        }
 
-.versiondesktop{
-    margin-top: -91px;
-}
-
-}
+            .footer__liens{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
+            }
+        }
 

@@ -42,7 +42,7 @@
             }
                 //prend un seul argument qui représente le motif de répétition des éléments ciblés.
                 &:nth-child(1){
-                    animation: .8s cartes 2.5s ease-in-out forwards;
+                    animation: .8s cartes 2.5s ease-in-out forwards;//La propriété définit la progression d'une animation pendant la durée de chaque cycle.
                 }
                 &:nth-child(2){
                     animation: .8s cartes 2s ease-in-out forwards;

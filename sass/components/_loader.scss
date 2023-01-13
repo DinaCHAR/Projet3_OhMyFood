@@ -38,6 +38,8 @@
         animation: .7s infinite linear rotation;
     }
 }
+
+/* permet aux auteurs de définir les étapes qui composent la séquence d'une animation CSS*/
 @keyframes rotation{
     0%{
         transform: translate(-50%,-50%) rotate(0deg);

@@ -1,11 +1,12 @@
 .coeur{
+    //contour du coeur noir 
     color: black;
     font-size: 20px;
     &:hover{
         font-weight: 900;
-        background-image: linear-gradient(to bottom left, #9356dc, #ff79da);
-        transition: background-image 1s ease-in-out;
-        -webkit-background-clip:text;
+        background-image: linear-gradient(to bottom left, #9356dc, #ff79da);//afin d'avoir un remplissage en couleur
+        transition: background-image 1s ease-in-out;//remplir le coeur
+        -webkit-background-clip:text;//définit la façon dont l'arrière-plan d'un élément (que ce soit l'image ou la couleur) s'étend sous la boîte de bordure, la boîte de remplissage (padding) ou la boîte de contenu.
         color: transparent;
     }
 }
@@ -48,8 +49,6 @@
                             color: white;
                             border-color: black;
                         }
-
-                        
 
                                 &__like:hover::after{
                                     transform: rotate(150deg);

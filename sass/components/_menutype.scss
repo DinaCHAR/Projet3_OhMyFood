@@ -1,8 +1,10 @@
 .menurestaurant__type:hover{
+    //permettre la rotaion
     .menuListe{
-        width: calc(85% - 49px);
+        width: calc(85% - 49px); //gérer la taille du contour
         transition: width .6s ease-in-out;
     }
+    //gérer l'icone dans le but de le faire tourner 
     i{
         transform: rotate(1turn);
         transition: transform .6s ease-in-out;
@@ -48,6 +50,7 @@
                 align-self: flex-end;
             }
                 
+            //Positionner l'element check
                 &__check{
                     background-color: #99E2D0;
                     cursor: pointer;

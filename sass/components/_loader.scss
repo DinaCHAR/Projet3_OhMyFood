@@ -1,11 +1,12 @@
 .loader{
-    position: fixed;
-    z-index: 1000;
+    position: fixed;//définit la façon dont un élément est positionné dans un document.
+    z-index: 1000;//Lorsque des éléments se chevauchent, le z-order détermine l'ordre des différentes couches que formeront les éléments
     width: 100vw;
     height: 100vh;//FORMAT DE LECRAN
     background-color: rgba(255,255,255,.95);
     animation: 1.5s linear loader forwards;
 
+    //qui sera le dernier enfant de l'élément sélectionné. Il est souvent utilisé pour ajouter du contenu cosmétique à un élément
     &::after{
         content:'';
         position: absolute;
@@ -22,6 +23,7 @@
         animation: 1.4s infinite linear rotation;
     }
 
+    //qui sera le premier enfant de l'élément ciblé. Généralement utilisé pour ajouter du contenu esthétique à un élément via la propriété CSS 
     &::before{
         content:'';
         position: absolute;
@@ -42,7 +44,7 @@
 /* permet aux auteurs de définir les étapes qui composent la séquence d'une animation CSS*/
 @keyframes rotation{
     0%{
-        transform: translate(-50%,-50%) rotate(0deg);
+        transform: translate(-50%,-50%) rotate(0deg); // Grâce à cette propriété, il est possible de translater les éléments, de les tourner, d'appliquer des homothéties, de les distordre pour en changer la perspective.
     }
     100%{
         transform: translate(-50%,-50%) rotate(1turn);
@@ -50,7 +52,7 @@
 }
 @keyframes loader{
     0%{
-        opacity: 1;
+        opacity: 1; //définit la transparence d'un élément. Autrement dit, elle permet de définir le degré de visibilité de l'arrière-plan sur lequel est placé l'élément.
     }
     90%{
         opacity: 1;

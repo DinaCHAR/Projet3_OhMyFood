@@ -40,6 +40,7 @@
                 animation: 1.8s entree  ease-in-out forwards;
                 
             }
+                //prend un seul argument qui représente le motif de répétition des éléments ciblés.
                 &:nth-child(1){
                     animation: .8s cartes 2.5s ease-in-out forwards;
                 }
@@ -54,8 +55,6 @@
                 
                 }
             
-            
-
                     &__type{
                         display: flex;
                         box-shadow: 0 4px 12px rgba(0,0,0, 0.2);
@@ -66,8 +65,8 @@
 
                     @keyframes cartes {
                         from{
-                            transform: translate(-100%);
-                            opacity: 1;
+                            transform: translate(-100%);//modifie l'espace de coordonnées utilisé pour la mise en forme visuelle
+                            opacity: 1; //définit la transparence d'un élément. Autrement dit, elle permet de définir le degré de visibilité de l'arrière-plan sur lequel est placé l'élément
                         }
                         to{
                             transform: translate(0);

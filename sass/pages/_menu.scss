@@ -7,6 +7,18 @@
     flex-direction: column;
     background-color: white;
 
+    
+
+        & h2::after{
+        content: '';
+        display: block;
+        border-bottom: 2px solid #99E2D0;
+        width: 51px;
+        font-size: 17px;
+    }
+
+
+
     &__nom{
         font-family: Shrikhand;
         font-size: 2.5rem;
@@ -26,14 +38,25 @@
                 text-transform: uppercase;
                 position: relative;
                 animation: 1.8s entree  ease-in-out forwards;
-
-                & h2:hover
-                    {
-                        border-bottom: 2px solid #99E2D0;
-                        width: 51px;
-                        font-size: 17px;
-                    }
+                
             }
+
+            & section:hover{
+                &:nth-child(1){
+                    animation: .8s cartes 4s ease-in-out forwards;
+                }
+                &:nth-child(2){
+                    animation: .8s cartes 7s ease-in-out forwards;
+                }
+                &:nth-child(3){
+                    animation: .8s cartes 10s ease-in-out forwards;
+                }
+                &:nth-child(4){
+                    animation: .8s cartes 13s ease-in-out forwards;
+                
+                }
+            }
+            
 
                     &__type{
                         display: flex;
@@ -42,4 +65,18 @@
                         border-radius: 12px;
                         margin-bottom: 20px;
                     }
+
+                    
+                    
+                    @keyframes cartes {
+                        from{
+                            transform: translate(-100%);
+                            opacity: 0;
+                        }
+                        to{
+                            transform: translate(0);
+                            opacity: 1;
+                        }
+                    }
+                      
             }

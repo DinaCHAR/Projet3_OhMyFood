@@ -64,17 +64,14 @@
                         margin-bottom: 20px;
                     }
 
-                    
-                    
                     @keyframes cartes {
                         from{
                             transform: translate(-100%);
-                            opacity: 0;
+                            opacity: 1;
                         }
                         to{
                             transform: translate(0);
                             opacity: 1;
                         }
-                    }
-                      
-            }
+                    }  
+                }

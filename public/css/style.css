@@ -434,7 +434,7 @@ aside i {
 @keyframes cartes {
   from {
     transform: translate(-100%);
-    opacity: 0;
+    opacity: 1;
   }
   to {
     transform: translate(0);

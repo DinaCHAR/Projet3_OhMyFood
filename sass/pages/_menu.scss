@@ -43,10 +43,10 @@
 
             & section:hover{
                 &:nth-child(1){
-                    animation: .8s cartes 4s ease-in-out forwards;
+                    animation: .8s cartes 2.5s ease-in-out forwards;
                 }
                 &:nth-child(2){
-                    animation: .8s cartes 7s ease-in-out forwards;
+                    animation: .8s cartes 2s ease-in-out forwards;
                 }
                 &:nth-child(3){
                     animation: .8s cartes 1s ease-in-out forwards;

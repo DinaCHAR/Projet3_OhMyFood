@@ -40,8 +40,6 @@
                 animation: 1.8s entree  ease-in-out forwards;
                 
             }
-
-            & section:hover{
                 &:nth-child(1){
                     animation: .8s cartes 2.5s ease-in-out forwards;
                 }
@@ -55,7 +53,7 @@
                     animation: .8s cartes 1.3s ease-in-out forwards;
                 
                 }
-            }
+            
             
 
                     &__type{

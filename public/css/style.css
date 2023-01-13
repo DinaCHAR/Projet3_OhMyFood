@@ -190,9 +190,9 @@ h2 {
   padding: 10px;
   white-space: nowrap;
   animation: 0.6s agrandir ease-in-out forwards;
-}
-.menuListe:nth-child(1) {
-  animation: 0.8s cartes 0.4s ease-in-out forwards;
+  /*&:nth-child(1){
+      animation: .8s cartes .4s ease-in-out forwards;
+  }*/
 }
 .menuListe__titre {
   margin: 0px;
@@ -412,16 +412,16 @@ aside i {
   position: relative;
   animation: 1.8s entree ease-in-out forwards;
 }
-.menurestaurant section:hover:nth-child(1) {
+.menurestaurant:nth-child(1) {
   animation: 0.8s cartes 2.5s ease-in-out forwards;
 }
-.menurestaurant section:hover:nth-child(2) {
+.menurestaurant:nth-child(2) {
   animation: 0.8s cartes 2s ease-in-out forwards;
 }
-.menurestaurant section:hover:nth-child(3) {
+.menurestaurant:nth-child(3) {
   animation: 0.8s cartes 1s ease-in-out forwards;
 }
-.menurestaurant section:hover:nth-child(4) {
+.menurestaurant:nth-child(4) {
   animation: 0.8s cartes 1.3s ease-in-out forwards;
 }
 .menurestaurant__type {

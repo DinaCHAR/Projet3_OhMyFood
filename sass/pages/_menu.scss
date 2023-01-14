@@ -40,19 +40,19 @@
                 animation: 1.8s entree  ease-in-out forwards;
                 
             }
+            
                 //prend un seul argument qui représente le motif de répétition des éléments ciblés.
-                &:nth-child(1){
-                    animation: .8s cartes 2.5s ease-in-out forwards;//La propriété définit la progression d'une animation pendant la durée de chaque cycle.
+                & section :nth-child(1){
+                    animation: .8s cartes .4s ease-in-out forwards;
                 }
-                &:nth-child(2){
-                    animation: .8s cartes 2s ease-in-out forwards;
+                & section :nth-child(2){
+                    animation: .8s cartes .7s ease-in-out forwards;
                 }
-                &:nth-child(3){
+                & section :nth-child(3){
                     animation: .8s cartes 1s ease-in-out forwards;
                 }
-                &:nth-child(4){
+                & section :nth-child(4){
                     animation: .8s cartes 1.3s ease-in-out forwards;
-                
                 }
             
                     &__type{
@@ -66,7 +66,7 @@
                     @keyframes cartes {
                         from{
                             transform: translate(-100%);//modifie l'espace de coordonnées utilisé pour la mise en forme visuelle
-                            opacity: 1; //définit la transparence d'un élément. Autrement dit, elle permet de définir le degré de visibilité de l'arrière-plan sur lequel est placé l'élément
+                            opacity: 0; //définit la transparence d'un élément. Autrement dit, elle permet de définir le degré de visibilité de l'arrière-plan sur lequel est placé l'élément
                         }
                         to{
                             transform: translate(0);

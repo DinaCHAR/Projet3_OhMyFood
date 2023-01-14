@@ -38,6 +38,9 @@ body {
   font-weight: 100;
   line-height: 1.7;
 }
+body:hover {
+  touch-action: auto;
+}
 
 h1 {
   font-family: "Roboto", sans-serif;
@@ -412,16 +415,16 @@ aside i {
   position: relative;
   animation: 1.8s entree ease-in-out forwards;
 }
-.menurestaurant:nth-child(1) {
-  animation: 0.8s cartes 2.5s ease-in-out forwards;
+.menurestaurant section :nth-child(1) {
+  animation: 0.8s cartes 0.4s ease-in-out forwards;
 }
-.menurestaurant:nth-child(2) {
-  animation: 0.8s cartes 2s ease-in-out forwards;
+.menurestaurant section :nth-child(2) {
+  animation: 0.8s cartes 0.7s ease-in-out forwards;
 }
-.menurestaurant:nth-child(3) {
+.menurestaurant section :nth-child(3) {
   animation: 0.8s cartes 1s ease-in-out forwards;
 }
-.menurestaurant:nth-child(4) {
+.menurestaurant section :nth-child(4) {
   animation: 0.8s cartes 1.3s ease-in-out forwards;
 }
 .menurestaurant__type {
@@ -434,7 +437,7 @@ aside i {
 @keyframes cartes {
   from {
     transform: translate(-100%);
-    opacity: 1;
+    opacity: 0;
   }
   to {
     transform: translate(0);
